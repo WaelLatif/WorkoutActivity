@@ -8,13 +8,14 @@ public class WorkoutExport {
     List<String> getWorkouts (String workouttypes)
     {
         List<String> workout = new ArrayList<String>();
+
         if (workouttypes.equals("Chest")) {
             workout.add("Dumbbell Squeeze Press");
             workout.add("Incline barbell bench press");
             workout.add("Close-grip barbell bench press");
             workout.add("Decline press-up");
             workout.add("Cable fly");
-            workout.add("Staggered press-up");
+            workout.add("Staggered press-ups");
             workout.add("Chest dips");
         } else if (workouttypes.equals("Biceps")) {
             workout.add("Fat-Grip Hammer Curl");
