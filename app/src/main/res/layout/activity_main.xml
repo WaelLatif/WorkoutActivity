@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/Workouttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:entries="@array/workout_types" />
+
+    <TextView
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/workout"
+        android:layout_below="@+id/findworkout"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/findworkout"
+        android:layout_alignStart="@+id/findworkout"
+        />
+
+    <Button
+        android:id="@+id/findworkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Workouttype"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:text="@string/find_workout"
+        android:onClick="onClickfindworkout"
+        />
+
+</RelativeLayout>
