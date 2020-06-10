@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,11 +7,11 @@
 
 
     <Spinner
-        android:id="@+id/Workouttype"
-        android:layout_width="wrap_content"
+        android:id="@+id/spineer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="25dp"
         android:entries="@array/workout_types" />
 
     <TextView
@@ -20,19 +19,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/workout"
-        android:layout_below="@+id/findworkout"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/findworkout"
-        android:layout_alignStart="@+id/findworkout"
-        />
+        android:layout_marginTop="25dp"
+        android:layout_gravity = "center_horizontal"
+        android:layout_below="@+id/spineer" />
 
     <Button
         android:id="@+id/findworkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Workouttype"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="300dp"
         android:text="@string/find_workout"
         android:onClick="onClickfindworkout"
         />

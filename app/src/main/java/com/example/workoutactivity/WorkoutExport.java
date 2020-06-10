@@ -7,7 +7,7 @@ public class WorkoutExport {
 
     List<String> getWorkouts (String workouttypes) {
 
-        List<String> workout = new ArrayList<String>();
+        ArrayList<String> workout = new ArrayList<>();
 
         switch (workouttypes){
 
@@ -58,9 +58,4 @@ public class WorkoutExport {
         return workout ;
 
     }
-
-
-
-
-
 }

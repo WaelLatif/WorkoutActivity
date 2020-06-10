@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
     public void onClickfindworkout (View view)
     {
         TextView workouts=  (TextView) findViewById(R.id.workout);
-        Spinner workouttype = (Spinner) findViewById(R.id.Workouttype);
+        Spinner workouttype = (Spinner) findViewById(R.id.spineer);
         String workout = String.valueOf(workouttype.getSelectedItem());
 
         //workouts.setText(workout)

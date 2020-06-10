@@ -3,7 +3,7 @@
     <string name="find_workout">Work Out</string>
     <string name="workout">Your Workouts Here</string>
 
-<!-- workout types -->
+    <!-- workout types -->
     <string name="chest">Chest</string>
     <string name="Biceps">Biceps</string>
     <string name="Triceps">Triceps</string>
